@@ -1,0 +1,10 @@
+CREATE TABLE tb_capybara (
+	id INTEGER NOT NULL AUTO_INCREMENT,
+	name VARCHAR(100) NOT NULL,
+	age INTEGER NOT NULL,
+	weight FLOAT NOT NULL,
+	color VARCHAR(10),
+	curiosity VARCHAR(500),
+	classification ENUM('RARE','COMUM','AMAZING') NOT NULL,
+	PRIMARY KEY (id)
+)
